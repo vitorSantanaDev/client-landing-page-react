@@ -31,7 +31,7 @@ module.exports = function (plop) {
       {
         type: 'add',
         path: '../src/components/{{pascalCase name}}/{{pascalCase name}}.test.tsx',
-        templateFile: 'templates/index.spec.tsx.hbs'
+        templateFile: 'templates/index.test.tsx.hbs'
       }
     ]
   })
