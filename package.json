@@ -19,7 +19,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint src",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "generate": "plop --plopfile ./generators/plopfile.js"
   },
   "eslintConfig": {
     "extends": [
@@ -75,6 +76,7 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-storybook": "^0.5.7",
     "jest-styled-components": "^7.0.8",
+    "plop": "^3.0.5",
     "prettier": "2.5.1",
     "typescript": "^4.6.2",
     "webpack": "^5.70.0"
