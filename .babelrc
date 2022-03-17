@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": false
+      }
+    ]
+  ],
+  "presets": [
+    "@bael/preset-typescript"
+  ]
+}
