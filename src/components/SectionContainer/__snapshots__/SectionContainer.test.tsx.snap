@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionContainer /> should render children 1`] = `
+.c0 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Content
+  </h1>
+</div>
+`;
