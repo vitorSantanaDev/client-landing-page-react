@@ -15,7 +15,7 @@ export const Wrapper = styled.a`
       width: 0%;
       height: 0.2rem;
 
-      bottom: 0;
+      bottom: 0.77rem;
       left: 50%;
       position: absolute;
 
