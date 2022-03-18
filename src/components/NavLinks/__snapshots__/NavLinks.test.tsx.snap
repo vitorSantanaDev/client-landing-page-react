@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavLinks /> should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c1 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  padding: 1.6rem;
+  color: #0A1128;
+  font-size: 1.6rem;
+}
+
+.c1::after {
+  content: '';
+  width: 0%;
+  height: 0.2rem;
+  bottom: 0.77rem;
+  left: 50%;
+  position: absolute;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  background-color: #dc143c;
+}
+
+.c1:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+}
+
+<nav
+  class="c0"
+>
+  <a
+    class="c1"
+    href="#target_1"
+    target="_self"
+  >
+    First Link
+  </a>
+  <a
+    class="c1"
+    href="#target_2"
+    target="_blank"
+  >
+    Second Link
+  </a>
+  <a
+    class="c1"
+    href="#target_3"
+    target="_self"
+  >
+    Tertiary Link
+  </a>
+  <a
+    class="c1"
+    href="#target_4"
+    target="_blank"
+  >
+    Last Link
+  </a>
+  <a
+    class="c1"
+    href="#target_5"
+    target="_self"
+  >
+    Test Link
+  </a>
+  <a
+    class="c1"
+    href="#target_6"
+    target="_self"
+  >
+    Contact Link
+  </a>
+  <a
+    class="c1"
+    href="#target_7"
+    target="_blank"
+  >
+    About Link
+  </a>
+</nav>
+`;
