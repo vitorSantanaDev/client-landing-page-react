@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionBackground /> should render with background dark 1`] = `
+.c1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0A1128;
+  color: #FFFFFF;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1>
+      Content
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`<SectionBackground /> should render with background light 1`] = `
+.c1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1>
+      Content
+    </h1>
+  </div>
+</div>
+`;
