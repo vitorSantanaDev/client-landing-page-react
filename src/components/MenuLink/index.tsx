@@ -1,12 +1,12 @@
 import React from 'react'
 import * as S from './styles'
 
-interface MenuLinkProps {
+interface IMenuLinkProps {
   link: string
   newTab?: boolean
 }
 
-const MenuLink: React.FC<MenuLinkProps> = ({
+const MenuLink: React.FC<IMenuLinkProps> = ({
   children,
   link,
   newTab = false
