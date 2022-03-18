@@ -11,9 +11,9 @@ interface INavLinks {
   }[]
 }
 
-const NavLinks: React.FC<INavLinks> = ({ links = [] }) => (
+const NavLinks: React.FC<INavLinks> = ({ links }) => (
   <S.Wrapper>
-    {links.map((link) => (
+    {links?.map((link) => (
       <MenuLink key={link.link} {...link} />
     ))}
   </S.Wrapper>
