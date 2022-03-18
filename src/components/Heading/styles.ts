@@ -1,6 +1,6 @@
 import styled, { css, DefaultTheme } from 'styled-components'
 
-interface IHeadingProps {
+interface IWrapperProps {
   colorDark: boolean
   uppercase: boolean
   size: 'small' | 'medium' | 'big' | 'huge'
@@ -32,7 +32,7 @@ const titleCase = (uppercase: boolean) => css`
   text-transform: ${uppercase ? 'uppercase' : 'none'};
 `
 
-export const Wrapper = styled.h1<IHeadingProps>`
+export const Wrapper = styled.h1<IWrapperProps>`
   ${({ theme, colorDark, size, uppercase }) => css`
     color: ${!colorDark ? theme.colors.white : theme.colors.primaryColor};
     ${titleSize[size](theme)}
