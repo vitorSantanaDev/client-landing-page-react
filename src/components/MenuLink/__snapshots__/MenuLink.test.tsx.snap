@@ -15,7 +15,7 @@ exports[`<MenuLink /> should match snapshot 1`] = `
   content: '';
   width: 0%;
   height: 0.2rem;
-  bottom: 0;
+  bottom: 0.77rem;
   left: 50%;
   position: absolute;
   -webkit-transition: all 300ms ease-in-out;

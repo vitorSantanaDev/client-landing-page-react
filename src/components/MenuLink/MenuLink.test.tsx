@@ -1,6 +1,8 @@
 import React from 'react'
 import { screen } from '@testing-library/react'
+
 import { renderTheme } from '../../styles/theme/render-theme'
+
 import MenuLink from '.'
 
 describe('<MenuLink />', () => {

@@ -1,9 +1,11 @@
 import React from 'react'
 import { screen } from '@testing-library/react'
-import { renderTheme } from '../../styles/theme/render-theme'
-import Heading from '.'
-import { theme } from '../../styles/theme/theme'
 import { ThemeProvider } from 'styled-components'
+
+import { renderTheme } from '../../styles/theme/render-theme'
+import { theme } from '../../styles/theme/theme'
+
+import Heading from '.'
 
 describe('<Heading />', () => {
   it('should render with default values', () => {
