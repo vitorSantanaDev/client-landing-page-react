@@ -1,7 +1,7 @@
 import React from 'react'
-import * as S from './styles'
 
 import MenuLink from '../MenuLink'
+import * as S from './styles'
 
 interface INavLinks {
   links: {

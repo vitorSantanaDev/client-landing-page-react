@@ -1,6 +1,6 @@
 import React from 'react'
-import SectionContainer from '../SectionContainer'
 
+import SectionContainer from '../SectionContainer'
 import * as S from './styles'
 
 interface ISectionBackgroundProps {
