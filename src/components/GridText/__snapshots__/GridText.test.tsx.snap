@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridText /> should render the component GridText 1`] = `
+.c4 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c9 {
+  color: #0A1128;
+  font-size: 3.2rem;
+  text-transform: none;
+}
+
+.c1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  font-size: 2.4rem;
+}
+
+.c2 .c5 {
+  margin-bottom: 6.4rem;
+}
+
+.c7 {
+  counter-reset: grid-counter;
+  display: grid;
+  gap: 3.2rem;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+}
+
+.c8 .c3 {
+  left: 5rem;
+  position: relative;
+}
+
+.c8 .c3::before {
+  counter-increment: grid-counter;
+  content: counter(grid-counter);
+  top: -2.3rem;
+  left: -5rem;
+  position: absolute;
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+  font-size: 7rem;
+}
+
+@media (max-width:768px) {
+  .c4 {
+    font-size: 4.0rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h1
+        class="c3 c4"
+      >
+        My grid
+      </h1>
+      <p
+        class="c5 c6"
+      >
+        Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+      </p>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <h1
+            class="c3 c9"
+          >
+            Teste 1
+          </h1>
+          <p
+            class="c5 c6"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+          </p>
+        </div>
+        <div
+          class="c8"
+        >
+          <h1
+            class="c3 c9"
+          >
+            Teste 2
+          </h1>
+          <p
+            class="c5 c6"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+          </p>
+        </div>
+        <div
+          class="c8"
+        >
+          <h1
+            class="c3 c9"
+          >
+            Teste 3
+          </h1>
+          <p
+            class="c5 c6"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
