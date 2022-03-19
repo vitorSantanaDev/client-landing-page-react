@@ -12,7 +12,7 @@ interface INavLinks {
 }
 
 const NavLinks: React.FC<INavLinks> = ({ links }) => (
-  <S.Wrapper>
+  <S.Wrapper aria-label="Main menu">
     {links?.map((link) => (
       <MenuLink key={link.link} {...link} />
     ))}
