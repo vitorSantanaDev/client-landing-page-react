@@ -1,5 +1,5 @@
 import React from 'react'
-import { screen } from '@testing-library/react'
+import { fireEvent, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { renderTheme } from '../../styles/theme/render-theme'
 
@@ -52,13 +52,32 @@ describe('<Menu />', () => {
     expect(screen.getByLabelText('Open menu')).toBeInTheDocument()
   })
 
+  it('should not render nav when menu container is clicked', () => {
+    const { container } = renderTheme(<Menu logoData={logoData} />)
+    const nav = screen.queryByRole('navigation', {
+      name: 'Main menu'
+    })?.firstChild
+    userEvent.click(container)
+    expect(nav).not.toBeInTheDocument()
+    expect(container.firstChild).toMatchSnapshot()
+  })
   it('should not render links', () => {
-    const { container } = renderTheme(<Menu logoData={logoData} links={[]} />)
+    const { container } = renderTheme(<Menu logoData={logoData} />)
     const nav = screen.queryByRole('navigation', {
       name: 'Main menu'
     })?.firstChild
 
     expect(nav).not.toBeInTheDocument()
-    expect(container).toMatchSnapshot()
+    expect(container.firstChild).toMatchSnapshot()
+  })
+  it('should not render menu when window resize', () => {
+    const { container } = renderTheme(<Menu logoData={logoData} />)
+    const nav = screen.queryByRole('navigation', {
+      name: 'Main menu'
+    })?.firstChild
+
+    fireEvent(window, new Event('resize'))
+    expect(nav).not.toBeInTheDocument()
+    expect(container.firstChild).toMatchSnapshot()
   })
 })

@@ -22,6 +22,7 @@ interface IMenuProps {
 
 const Menu: React.FC<IMenuProps> = ({ links = [], logoData }) => {
   const [menuVisible, setMenuVisible] = useState(false)
+
   const handleWindowResize = () => {
     setMenuVisible(false)
   }
