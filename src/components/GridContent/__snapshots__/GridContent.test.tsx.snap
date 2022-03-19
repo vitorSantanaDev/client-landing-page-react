@@ -56,11 +56,11 @@ exports[`<GridContent /> should  1`] = `
     <div
       class="c2"
     >
-      <h1
+      <h2
         class="c3"
       >
         Title text example
-      </h1>
+      </h2>
       <div
         class="c4"
       >

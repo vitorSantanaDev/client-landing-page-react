@@ -21,7 +21,7 @@ const GridTwoColumn: React.FC<IGridTwoColumnProps> = ({
   <SectionBackground background={background}>
     <S.Wrapper>
       <S.TextContainer>
-        <Heading uppercase colorDark={!background}>
+        <Heading uppercase colorDark={!background} as="h2">
           {title}
         </Heading>
         <TextComponent>{text}</TextComponent>

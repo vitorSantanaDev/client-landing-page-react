@@ -18,7 +18,7 @@ const GridContent: React.FC<IGridContent> = ({
 }) => (
   <SectionBackground background={background}>
     <S.Wrapper>
-      <Heading uppercase colorDark={!background}>
+      <Heading uppercase colorDark={!background} as="h2">
         {title}
       </Heading>
       <S.Content>
