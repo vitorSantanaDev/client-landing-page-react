@@ -1,5 +1,80 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<GridText /> should not render the headings when grid prop is empyt 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 .c4 {
+  margin-bottom: 6.4rem;
+}
+
+.c6 {
+  counter-reset: grid-counter;
+  display: grid;
+  gap: 3.2rem;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h2
+        class="c3"
+      >
+        My grid
+      </h2>
+      <p
+        class="c4 c5"
+      >
+        test
+      </p>
+      <div
+        class="c6"
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`<GridText /> should render the component GridText 1`] = `
 .c4 {
   color: #0A1128;
