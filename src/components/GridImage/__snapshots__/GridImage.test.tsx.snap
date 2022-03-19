@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridImage /> should not render images when grid prop is empty 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 > .c4 {
+  margin-bottom: 6.4rem;
+}
+
+.c6 {
+  display: grid;
+  gap: 3.2rem;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h2
+        class="c3"
+      >
+        My grid
+      </h2>
+      <p
+        class="c4 c5"
+      >
+        test
+      </p>
+      <div
+        class="c6"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridImage /> should render images 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 > .c4 {
+  margin-bottom: 6.4rem;
+}
+
+.c6 {
+  display: grid;
+  gap: 3.2rem;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+}
+
+.c7 {
+  overflow: hidden;
+}
+
+.c8 {
+  width: 100%;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8:hover {
+  -webkit-transform: scale(1.2) rotate(10deg);
+  -ms-transform: scale(1.2) rotate(10deg);
+  transform: scale(1.2) rotate(10deg);
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h2
+        class="c3"
+      >
+        My grid
+      </h2>
+      <p
+        class="c4 c5"
+      >
+        Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+      </p>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <img
+            alt="Teste 1"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800?r=1"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Teste 2"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800?r=2"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Teste 3"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800?r=3"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Teste 4"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800?r=4"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Teste 5"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800?r=5"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Teste 6"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800?r=6"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
