@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridTwoColumn /> should render two column grid 1`] = `
+.c5 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  display: grid;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 3.2rem;
+  grid-template-columns: 1fr 2fr;
+}
+
+.c2 .c4 {
+  margin-bottom: 4.0rem;
+}
+
+@media (max-width:768px) {
+  .c5 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 {
+    margin-bottom: 3.2rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h1
+          class="c4 c5"
+        >
+          Grid two column
+        </h1>
+        <p
+          class="c6"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vero, accusantium eum exercitationem in ex quo veniam sed totam, quos ipsam at. Facilis a labore alias sed, natus dolor temporibus?
+        </p>
+      </div>
+      <div
+        class=""
+      >
+        <img
+          alt="Grid two column"
+          class=""
+          src="assets/images/javascript.svg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
