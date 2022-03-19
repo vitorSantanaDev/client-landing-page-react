@@ -1,8 +1,12 @@
 import React from 'react'
 import * as S from './styles'
 
-const TextComponent: React.FC = ({ children }) => (
-  <S.Wrapper>{children}</S.Wrapper>
+interface ITextComponentProps {
+  children: string
+}
+
+const TextComponent: React.FC<ITextComponentProps> = ({ children }) => (
+  <S.Wrapper dangerouslySetInnerHTML={{ __html: children }} />
 )
 
 export default TextComponent
