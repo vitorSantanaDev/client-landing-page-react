@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridContent /> should  1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 {
+  text-align: center;
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+.c4 {
+  margin: 6.4rem 0;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h1
+        class="c3"
+      >
+        Title text example
+      </h1>
+      <div
+        class="c4"
+      >
+        <p
+          class="c5"
+        >
+          <p>
+            Lorem ipsum dolor sit amet, 
+            <a
+              href="#"
+            >
+              consectetur adipiscing
+            </a>
+             elit. Sed ac lacus pretium urna malesuada dignissim. Sed risus tortor, sagittis eget sem ut, porta imperdiet magna. In fringilla nisi enim. Aenean mollis vehicula nulla, non vulputate eros pretium eget. Vivamus tincidunt accumsan massa non convallis. Aliquam molestie efficitur faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum suscipit convallis mi, vitae ornare dolor hendrerit quis. Nam gravida orci posuere nisi imperdiet posuere. Phasellus quis blandit turpis, eu feugiat velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ac malesuada quam. Aliquam eu finibus massa.
+          </p>
+          
+
+  
+          <p>
+            Donec pulvinar volutpat ante quis porttitor. In hac habitasse platea dictumst. Sed eu placerat turpis, vitae pulvinar odio. Pellentesque viverra posuere enim, eu dapibus quam congue sit amet. Sed iaculis eleifend scelerisque. Curabitur ut elit at sem cursus euismod. Praesent ornare, urna vitae sollicitudin tincidunt, sem odio accumsan velit, quis iaculis neque elit vel ante. Suspendisse rhoncus felis at arcu blandit facilisis. Cras euismod varius nibh, a cursus nisi. Integer laoreet posuere sem vel pulvinar. Etiam vel blandit libero. Praesent consectetur tellus et justo lobortis rhoncus.
+          </p>
+          
+  
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
