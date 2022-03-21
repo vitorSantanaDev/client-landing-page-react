@@ -11,16 +11,6 @@ describe('<TextComponent />', () => {
 
   it('should match snapshot', () => {
     const { container } = renderTheme(<TextComponent>Text</TextComponent>)
-    expect(container.firstChild).toMatchInlineSnapshot(`
-      .c0 {
-        font-size: 2.4rem;
-      }
-
-      <p
-        class="c0"
-      >
-        Text
-      </p>
-    `)
+    expect(container.firstChild).toMatchSnapshot()
   })
 })
