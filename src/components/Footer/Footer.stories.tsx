@@ -6,8 +6,7 @@ export default {
   title: 'Footer',
   component: Footer,
   args: {
-    children:
-      '<p><a href="https://github.com/vitorSantanaDev">Feito com ❤️ por Vitor Santana</a></p>'
+    html: '<p><a href="https://github.com/vitorSantanaDev">Feito com ❤️ por Vitor Santana</a></p>'
   }
 } as ComponentMeta<typeof Footer>
 
