@@ -36,8 +36,10 @@ exports[`<GridText /> should not render the headings when grid prop is empyt 1`]
 }
 
 .c6 {
-  counter-reset: grid-counter;
+  width: 100%;
+  overflow: hidden;
   display: grid;
+  counter-reset: grid-counter;
   gap: 3.2rem;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
 }
@@ -117,8 +119,10 @@ exports[`<GridText /> should render the component GridText 1`] = `
 }
 
 .c7 {
-  counter-reset: grid-counter;
+  width: 100%;
+  overflow: hidden;
   display: grid;
+  counter-reset: grid-counter;
   gap: 3.2rem;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
 }

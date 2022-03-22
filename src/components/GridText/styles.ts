@@ -11,8 +11,10 @@ export const Wrapper = styled.div`
 `
 export const Grid = styled.div`
   ${({ theme }) => css`
-    counter-reset: grid-counter;
+    width: 100%;
+    overflow: hidden;
     display: grid;
+    counter-reset: grid-counter;
     gap: ${theme.spacings.large};
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   `}
