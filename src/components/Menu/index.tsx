@@ -23,14 +23,18 @@ interface IMenuProps {
 const Menu: React.FC<IMenuProps> = ({ links = [], logoData }) => {
   const [menuVisible, setMenuVisible] = useState(false)
 
-  const handleWindowResize = () => {
+  const handleWindowResizeOrClick = () => {
     setMenuVisible(false)
   }
 
+  const handleClickOPenOrCloseMenu = () => {
+    setMenuVisible((s) => !s)
+  }
+
   useEffect(() => {
-    window.addEventListener('resize', handleWindowResize)
+    window.addEventListener('resize', handleWindowResizeOrClick)
     return () => {
-      window.removeEventListener('resize', handleWindowResize)
+      window.removeEventListener('resize', handleWindowResizeOrClick)
     }
   }, [menuVisible])
 
@@ -38,7 +42,7 @@ const Menu: React.FC<IMenuProps> = ({ links = [], logoData }) => {
     <>
       <S.Button
         aria-label="Open/Close menu"
-        onClick={() => setMenuVisible((s) => !s)}
+        onClick={handleClickOPenOrCloseMenu}
       >
         {!menuVisible ? (
           <MenuIcon aria-label="Open menu" />
@@ -46,7 +50,7 @@ const Menu: React.FC<IMenuProps> = ({ links = [], logoData }) => {
           <CloseIcon aria-label="Close menu" />
         )}
       </S.Button>
-      <S.Wrapper onClick={() => setMenuVisible(false)} visible={menuVisible}>
+      <S.Wrapper onClick={handleWindowResizeOrClick} visible={menuVisible}>
         <SectionContainer>
           <S.MenuContainer>
             <LogoLink {...logoData} />
