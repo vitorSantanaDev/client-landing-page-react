@@ -1,10 +1,14 @@
 import React from 'react'
+
+import { mockBase } from '../Base/mock'
+import Base from '../Base'
+
 import * as S from './styles'
 
 const Home: React.FC = () => {
   return (
     <S.Wrapper>
-      <h1>Reac App</h1>
+      <Base {...mockBase} />
     </S.Wrapper>
   )
 }
