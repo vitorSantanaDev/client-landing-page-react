@@ -14,6 +14,7 @@ const GET_LANDING_PAGE = /* GraphQL */ `
     }
     metadata {
       background
+      section_id
     }
   }
 
@@ -28,6 +29,7 @@ const GET_LANDING_PAGE = /* GraphQL */ `
     }
     metadata {
       background
+      section_id
     }
   }
 
@@ -37,6 +39,7 @@ const GET_LANDING_PAGE = /* GraphQL */ `
     content
     metadata {
       background
+      section_id
     }
   }
 
@@ -49,6 +52,7 @@ const GET_LANDING_PAGE = /* GraphQL */ `
     }
     metadata {
       background
+      section_id
     }
   }
 
