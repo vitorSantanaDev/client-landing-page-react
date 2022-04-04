@@ -9,14 +9,16 @@ interface IGridContent {
   title: string
   content: string
   background?: boolean
+  sectionId?: string
 }
 
 const GridContent: React.FC<IGridContent> = ({
   title,
   content,
-  background
+  background,
+  sectionId
 }) => (
-  <SectionBackground background={background}>
+  <SectionBackground sectionId={sectionId} background={background}>
     <S.Wrapper>
       <Heading uppercase colorDark={!background} as="h2">
         {title}

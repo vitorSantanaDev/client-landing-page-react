@@ -23,6 +23,7 @@ export const GridElement = styled.div`
 export const Image = styled.img`
   ${() => css`
     width: 100%;
+    max-height: 447px;
     transition: all 300ms ease-in-out;
 
     &:hover {

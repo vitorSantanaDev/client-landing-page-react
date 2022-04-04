@@ -9,6 +9,7 @@ interface IGridText {
   title: string
   background?: boolean
   description: string
+  sectionId?: string
   grid: {
     title: string
     description: string
@@ -19,9 +20,10 @@ const GridText: React.FC<IGridText> = ({
   title,
   background,
   description,
-  grid
+  grid,
+  sectionId
 }) => (
-  <SectionBackground background={background}>
+  <SectionBackground sectionId={sectionId} background={background}>
     <S.Wrapper>
       <Heading size="huge" uppercase colorDark={!background} as="h2">
         {title}

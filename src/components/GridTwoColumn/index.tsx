@@ -10,15 +10,17 @@ interface IGridTwoColumnProps {
   text: string
   srcImage: string
   background?: boolean
+  sectionId?: string
 }
 
 const GridTwoColumn: React.FC<IGridTwoColumnProps> = ({
   title,
   text,
   srcImage,
-  background
+  background,
+  sectionId
 }) => (
-  <SectionBackground background={background}>
+  <SectionBackground sectionId={sectionId} background={background}>
     <S.Wrapper>
       <S.TextContainer>
         <Heading uppercase colorDark={!background} as="h2">
