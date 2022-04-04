@@ -6,6 +6,7 @@ export const Wrapper = styled.footer`
   ${({ theme }) => css`
     text-align: center;
     border-top: 0.1rem solid ${theme.colors.mediumGray};
+    padding: ${theme.spacings.small};
 
     & ${TextComponent} {
       font-size: ${theme.font.sizes.small};

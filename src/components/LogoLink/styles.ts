@@ -9,7 +9,7 @@ export const Wrapper = styled.a`
     text-decoration: none;
 
     > img {
-      max-height: 2.5rem;
+      height: 2.5rem;
     }
   `}
 `
