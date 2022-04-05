@@ -11,6 +11,7 @@
     "graphql-request": "^4.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.4"
@@ -91,8 +92,12 @@
       "!<rootDir>/src/**/*mock*.{js,jsx,ts,tsx}",
       "!<rootDir>/src/styles/*.{js,jsx,ts,tsx}",
       "!<rootDir>/src/templates/Home/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/components/Loading/*.{js,jsx,ts,tsx}",
       "!<rootDir>/src/templates/Base/*.{js,jsx,ts,tsx}",
       "!<rootDir>/src/templates/PageNotFound/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/graphql/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/graphql/queries/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/routes/*.{js,jsx,ts,tsx}",
       "!<rootDir>/**/*.stories.{js,jsx,ts,tsx}",
       "!<rootDir>/node_modules/"
     ]
