@@ -8,6 +8,7 @@ exports[`<GridContent /> should  1`] = `
 }
 
 .c1 {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3.2rem;
@@ -49,6 +50,7 @@ exports[`<GridContent /> should  1`] = `
 
 <div
   class="c0"
+  id=""
 >
   <div
     class="c1"

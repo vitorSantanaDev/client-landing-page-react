@@ -8,6 +8,7 @@ exports[`<GridText /> should not render the headings when grid prop is empyt 1`]
 }
 
 .c1 {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3.2rem;
@@ -52,6 +53,7 @@ exports[`<GridText /> should not render the headings when grid prop is empyt 1`]
 
 <div
   class="c0"
+  id=""
 >
   <div
     class="c1"
@@ -91,6 +93,7 @@ exports[`<GridText /> should render the component GridText 1`] = `
 }
 
 .c1 {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3.2rem;
@@ -152,6 +155,7 @@ exports[`<GridText /> should render the component GridText 1`] = `
 
 <div
   class="c0"
+  id=""
 >
   <div
     class="c1"

@@ -8,6 +8,7 @@ exports[`<GridImage /> should not render images when grid prop is empty 1`] = `
 }
 
 .c1 {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3.2rem;
@@ -49,6 +50,7 @@ exports[`<GridImage /> should not render images when grid prop is empty 1`] = `
 
 <div
   class="c0"
+  id=""
 >
   <div
     class="c1"
@@ -82,6 +84,7 @@ exports[`<GridImage /> should render images 1`] = `
 }
 
 .c1 {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3.2rem;
@@ -121,6 +124,7 @@ exports[`<GridImage /> should render images 1`] = `
 
 .c8 {
   width: 100%;
+  max-height: 447px;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
@@ -139,6 +143,7 @@ exports[`<GridImage /> should render images 1`] = `
 
 <div
   class="c0"
+  id=""
 >
   <div
     class="c1"

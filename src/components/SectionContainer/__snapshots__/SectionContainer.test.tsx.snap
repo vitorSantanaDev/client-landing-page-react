@@ -2,6 +2,7 @@
 
 exports[`<SectionContainer /> should render children 1`] = `
 .c0 {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3.2rem;

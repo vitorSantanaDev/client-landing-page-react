@@ -2,6 +2,7 @@
 
 exports[`<Footer /> should match snapshot 1`] = `
 .c2 {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3.2rem;
@@ -14,6 +15,7 @@ exports[`<Footer /> should match snapshot 1`] = `
 .c0 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
+  padding: 1.6rem;
 }
 
 .c0 .c3 {
