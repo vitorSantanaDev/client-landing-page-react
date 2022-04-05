@@ -9,14 +9,12 @@ interface ISectionBackgroundProps {
   sectionId?: string
 }
 
-const randomId = () => `${Math.random() * 1000}`.replace(/[^a-z0-9-_]/gi, '-')
-
 const SectionBackground: React.FC<ISectionBackgroundProps> = ({
   children,
   background,
   sectionId
 }) => {
-  const id = sectionId ? sectionId : randomId()
+  const id = sectionId ? sectionId : ''
   return (
     <S.Wrapper id={id} background={background}>
       <SectionContainer>{children}</SectionContainer>
