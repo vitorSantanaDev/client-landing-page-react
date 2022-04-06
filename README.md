@@ -1,70 +1,95 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A simple landing page created in React js
 
-## Available Scripts
+<p>Landing Page React.</p>
 
-In the project directory, you can run:
+<p>
+  <img src="https://img.shields.io/badge/made%20by-Vitor%20Santana-dc143c?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vitorSantanaDev/client-landing-page-react?color=dc143c&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/vitorSantanaDev/client-landing-page-react?color=dc143c&style=flat-square">
+</p>
 
-### `npm start`
+<img align="right" src="./public/assets/images/javascript.svg" height="120">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tópicos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Sobre a aplicação](#sobre-a-landing-page)
 
-### `npm test`
+[Funcionalidades](#funcionalidades)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Tecnologias e Ferramentas](#tecnologias-e-ferramentas)
 
-### `npm run build`
+[Instalação e uso](#instalação-e-uso)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Landing Page React js
 
-### `npm run eject`
+❤️ A landing page foi desenvolvidano intuito de praticar a criação de aplicações React. Não nenhuma funcionalidade aparente nessa aplicação. É apenas uma página que que contém naveção por  tabs, designer responsivo, e etc.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📌 Durante o desenvolvimento utilizei várias ferramentas fenômenais, para o desenvolvimento de aplicações webs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🗃️ Todo o conteúdo é gerado de forma dinâmica, vindo de uma api, feita utilizando o CMS strapi.
 
-## Learn More
+<br>
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Funcionalidades
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [X] Navegação por tabs
+- [X] Designer responsivo
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tecnologias e Ferramentas
 
-### Analyzing the Bundle Size
+As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [HTML](https://devdocs.io/html/)
+- [CSS](https://devdocs.io/css/)
+- [JavaScript](https://devdocs.io/javascript/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React Js](https://pt-br.reactjs.org/)
+- [styled-components](https://styled-components.com/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [React testing library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Storybook](https://storybook.js.org/)
+- [Strapi](https://strapi.io/)
+- [GraphQL](https://graphql.org/)
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Instalação e Uso
 
-### Advanced Configuration
+Para rodar a aplicação, você precisa instalar o [Node](https://nodejs.org/en/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Siga os passos abaixo:
 
-### Deployment
+```bash
+# Abra um terminal e copie este repositório com o comando
+$ git clone https://github.com/vitorSantanaDev/client-landing-page-react.git
+# ou use a opção de download.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Entre na pasta com
+$ cd client-landing-page-react
 
-### `npm run build` fails to minify
+# Instale as dependências
+$ yarn install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Rode a aplicação
+$ yarn start
+```
+
+<br>
+
+---
+
+Feito com :yellow_heart: by [Vitor_Santana](https://github.com/vitorSantanaDev)
+
+[![Linkedin Badge](https://img.shields.io/badge/-Vitor%20Santana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vitor-santana-bbb607217/)](https://www.linkedin.com/in/vitor-santana-bbb607217/)
+[![Gmail Badge](https://img.shields.io/badge/-vitorsantana.developer@gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vitorsantana.developer@gmail)](mailto:vitorsantana.developer@gmail)
